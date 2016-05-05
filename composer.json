@@ -18,7 +18,7 @@
     "require": {
         "composer/installers": "^1.0",
         "cweagans/composer-patches": "^1.0",
-        "drupal/core": "^8.0",
+        "drupal/core": "8.1.x-dev",
         "drush/drush": "^8.0",
         "drupal/console": "@stable"
     },
@@ -45,7 +45,7 @@
         "patches": {
             "drupal/core": {
                 "Redirect to install.php on empty DB": "https://www.drupal.org/files/issues/drupal-redirect_to_install-728702-85.patch",
-                "Allow read-only config directories": "https://www.drupal.org/files/issues/drupal-2607352-6.patch"
+                "Allow read-only config directories": "https://www.drupal.org/files/issues/2466197-29.patch"
             }
         }
     }
