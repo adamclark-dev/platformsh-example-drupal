@@ -83,7 +83,6 @@ class Platformify {
     static::updateComposerJson(function (array $composer) {
       $composer['extra']['patches']['drupal/core'] = [
         "Redirect to install.php on empty DB" => "https://www.drupal.org/files/issues/drupal-redirect_to_install-728702-92.patch",
-        "Staging directory should not have to be writeable" => "https://www.drupal.org/files/issues/2466197-59.patch",
       ];
 
       return $composer;
